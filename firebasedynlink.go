@@ -1,5 +1,9 @@
 package firebasedynlink
 
+import(
+  "net/http"
+)
+
 type Client struct {
   // https://firebasedynamiclinks.googleapis.com/v1/shortLinks
   BaseURL *url.URL
