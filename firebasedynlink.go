@@ -13,7 +13,7 @@ type Client struct {
 	// https://firebasedynamiclinks.googleapis.com/v1/shortLinks
 	BaseURL   *url.URL
 	UserAgent string
-	apiKey    string
+	APIKey    string
 
 	httpClient *http.Client
 }
